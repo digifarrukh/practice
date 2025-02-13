@@ -1,15 +1,9 @@
-<header>
+<header class="header">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-2">
-        <a href="{{ shop.url }}">
-          <img src="{{ settings.logo | img_url: 'medium' }}" alt="{{ shop.name }}" height="100%" width="100%">
-        </a>
-      </div>
-      <div class="col-lg-10">
-        {% comment %} menus {% endcomment %}
-        navigation
-      </div>
-    </div>
+    <nav class="navbar">
+      <a href="{{ shop.url }}">
+        <img src="{{ logo.url }}" alt="{{ shop.name }}" height="100%" width="100%"/>
+      </a>
+    </nav>
   </div>
 </header>
