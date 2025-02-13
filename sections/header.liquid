@@ -1,0 +1,18 @@
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2">
+        <a href="{{ shop.url }}">
+          <img src="{{ settings.logo | img_url: 'medium' }}" alt="{{ shop.name }}" height="100%" width="100%">
+        </a>
+      </div>
+      <div class="col-lg-10">
+        {% comment %} menus {% endcomment %}
+         <ul>
+          <li><a href="">{{settings.favicon}}</a></li>
+          <li><a href="">{{settings.colors.schema_1}}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
